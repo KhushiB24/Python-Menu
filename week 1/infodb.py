@@ -1,4 +1,5 @@
 # carlist.py
+# Infodb list
 InfoDb = []
 # List with dictionary key/values placed in a list
 InfoDb.append({
