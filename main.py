@@ -11,7 +11,6 @@ import os
 data_menu = [
     ["Matrix", matrix.matrix],
     ["InfoDB", infodb.driver],
-    ["Hangman", hangman.run]
     
     
 ]
@@ -21,6 +20,10 @@ math_menu = [
   ["Math Function imperative", mathyoop.imperative],
   ["Factorial Class", factorial_class.driver],  
 
+]
+_adventure_menu =[
+  ["Hangman", hangman.run] 
+  
 ]
 
 def menu(title, options):
