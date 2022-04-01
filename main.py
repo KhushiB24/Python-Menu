@@ -21,7 +21,7 @@ math_menu = [
   ["Factorial Class", factorial_class.driver],  
 
 ]
-_adventure_menu =[
+adventure_menu =[
   ["Hangman", hangman.run] 
   
 ]
