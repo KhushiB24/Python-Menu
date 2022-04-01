@@ -11,7 +11,7 @@ import os
 data_menu = [
     ["Matrix", matrix.matrix],
     ["InfoDB", infodb.driver],
-    
+    [ "Palindrome", palindrome.driver]
     
 ]
 math_menu = [
