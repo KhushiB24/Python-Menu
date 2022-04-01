@@ -19,6 +19,8 @@ math_menu = [
   ["fibonacci", fibonacci.driver],
   ["Math Function oop", mathy.exponent],
   ["Math Function imperative", mathyoop.imperative],
+  ["Factorial Class", factorial_class.driver],  
+
 ]
 
 def menu(title, options):
