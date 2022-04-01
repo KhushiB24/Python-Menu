@@ -2,29 +2,20 @@
 InfoDb = []
 # List with dictionary key/values placed in a list
 InfoDb.append({
-    "FirstName": "Kamya",
-    "LastName": "Mahendru",
-    "DOB": "Jan 06",
-    "Residence": "San Diego",
-    "Email": "Kamya04mahendru@gmail.com",
-    "Owns_Cars": ["2015-Lexus"]
+    "Fruit": "Strawberry",
+    "Beverage": "Soda",
+    "Food": "Pizza",
+    "Fastfood": "Burger",
+    "Restaurants": ["Rubio's","Wendy's","Pollo Loco"]
 })
 
-InfoDb.append({
-    "FirstName": "Bhupesh ",
-    "LastName": "Mahendru",
-    "DOB": "December 25",
-    "Residence": "San Diego",
-    "Email": "bmahendru@sbcglobal.net",
-    "Owns_Cars": ["Tesla", "Lexus", "Toyota"]
-})
 
 
 # given and index this will print InfoDb content
 def print_data(n):
-    print(InfoDb[n]["FirstName"], InfoDb[n]["LastName"])  # using comma puts space between values
-    print("\t", "Cars: ", end="")  # \t is a tab indent, end="" make sure no return occurs
-    print(", ".join(InfoDb[n]["Owns_Cars"]))  # join allows printing a string list with separator
+    print(InfoDb[n]["Food"], InfoDb[n]["Restaurants"])  # using comma puts space between values
+    print("\t", "Fruit: ", end="")  # \t is a tab indent, end="" make sure no return occurs
+    print(", ".join(InfoDb[n]["Fruit"]))  # join allows printing a string list with separator
     print()
 
 
