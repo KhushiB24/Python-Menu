@@ -2,7 +2,7 @@ from week0 import matrix
 
 from week1 import fibonacci,infodb,sqaure
 
-from week2 import factorial_class, mathy,palindrome,mathyoop
+from week2 import factorial_class, mathy,palindrome,mathyoop,hangman
 
 import time
 import os
@@ -11,6 +11,7 @@ import os
 data_menu = [
     ["Matrix", matrix.matrix],
     ["InfoDB", infodb.driver],
+    ["Hangman", hangman.run]
     
     
 ]
