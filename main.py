@@ -1,6 +1,6 @@
 from week0 import matrix
 
-from week1 import fibonacci,infodb,sqaure
+from week1 import fibonacci,infodb, triangle
 
 from week2 import factorial_class, mathy,palindrome,mathyoop,hangman
 
@@ -11,7 +11,8 @@ import os
 data_menu = [
     ["Matrix", matrix.matrix],
     ["InfoDB", infodb.driver],
-    [ "Palindrome", palindrome.driver]
+    ["Palindrome", palindrome.driver],
+    ["Triangle", triangle.turtle],
     
 ]
 math_menu = [
