@@ -142,13 +142,6 @@ There is digital divide in elsewhere such people who don't have stable WiFi conn
 5. An example of encryption in deployment would be to use the IP freenom to make the IP address for the website public.
 6. A phising scheme I have learned the hard way is to report the college websites that showcase that there is a message. Other techniques of phising would be through calls claiming something big to be fixed.
 
-
-
-
-
-
-
-
 - Additional Notes:
   - safe computing = be aware of what info is getting sent
   - DNS and do google search to find your deployed site
@@ -172,3 +165,21 @@ def __call__(self, n):
             fib_number = self(n - 1) + self(n - 2) # two recursive calls to self (__call__(self, n))
             self.fiboSeq.append(fib_number) # builds list, with most nested of the calculations 1st... may hurt your head
         return self.fiboSeq[n]
+            
+        
+ ## TT3 Notes:       
+app connects to the app route
+app = Flask(__name__)
+
+login_manager = LoginManager()
+- this is an object
+
+Remember: class has an method and an attribute 
+
+__init__ is what makes my objects and runs the code.
+
+- data is the model part of MVC
+- html is the view part of MVC
+- view driver is the control of MVC
+- control talks to the databse to showcase the data
+- hash is one way, while encryption and decryption uses the same key
