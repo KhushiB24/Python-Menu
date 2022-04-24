@@ -5,12 +5,12 @@
 <img width="900" alt="Screen Shot 2022-04-24 at 11 46 46" src="https://user-images.githubusercontent.com/89240973/164991778-d257cf72-f94c-4e53-9730-42c9222a84d4.jpg">
 
 
-<img width="852" alt="Screen Shot 2022-04-24 at 11 29 44 AM" src="https://user-images.githubusercontent.com/89240973/164991043-3ae98977-7e89-4126-b388-34c19ddb86b4.png">
+<img width="852" alt="Screen Shot 2022-04-24 at 11 47 38 AM" src="https://user-images.githubusercontent.com/89240973/164993972-be055c2d-fff6-4725-a2a5-675aeac5beb2.jpg">
 
 
 ## 3a. i. Describes the overall purpose of the program 
 
-Answer: The overall purpose of the program is to have a Mean, Median, Mode Math Quiz Game. In addition, if the users feel bored or that they need some break time, they can view the MathApi page which displays random facts and years. 
+Answer: The overall purpose of the program is to have a Mean, Median, Mode Math Quiz Game. In this game, the users are asked if they liked to add a number in the numlist, where then they are pormpted to answer with "y" for yes and "n" for no. If user selects "y", they are asked to enter a number to add to their numlist, if selected "n" the game ends and exits. 
 
 ## 3a. ii. Describes what functionality of the program is demonstrated in the video
 
