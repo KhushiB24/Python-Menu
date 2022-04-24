@@ -114,3 +114,89 @@ Answer: In general, the identified procedure defines a Boolean expression which 
 ### iv. Explains in detailed steps how the algorithm implemented in the identified procedure works. Your explanation must be detailed enough for someone else to recreate it.
 
 Answer: First step: enter an input, no certain restrictions. Make sure that every time a value has been inputted, that the first answer is “y” or else the program would close. Second step: you can enter as many values as would like, the important step is to remember to answer the question reasonably and to give the exact answer that the program asks. Third step: decide if the statistics of the list can be displayed. If said no, the program would agree and closes the program. If said yes, the program will give you the numList, the mean, median, mode, and range as the minimum and maximum values have been sorted while running the program. 
+
+## 3 d. Provide a written response that does all three of the following:
+
+### i. Describes two calls to the procedure identified in written response 3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute.
+
+First call: 
+```python
+def OR(input, first, second):
+ bool = input == first or input == second
+ return bool
+ ```
+
+
+This call is where I use the boolean function that would allow for if and else statements to be executed according to what number the user inputs. Also, the OR statement shows the numbers that the user inputs and whether or not it is valid according to the boolean function.
+
+Second call:
+```python
+ numList.append(itemInput)
+ ```
+
+The second call is to call the “itemInput”, which is the number inputted and to store the numbers inputted into the “numList”. 
+
+### ii. Describes what condition(s) is being tested by each call to the procedure 
+
+Condition(s) tested by the first call:
+
+```python
+if OR(addInput, 'y', 'yes'):
+ try:
+   itemInput = int(input('What number would you like to add?'))
+ except:
+   print('Oh no! That wasn\'t an expected answer. Exiting...')
+   break
+ numList.append(itemInput)
+ print('Number inputted.')
+elif OR(addInput, 'n', 'no'):
+ print('Ok! Exiting...')
+ break
+else:
+ print('Oh no! That wasn\'t an expected answer. Exiting...')
+ break
+ ```
+
+
+The condition that is being tested by this call to the procedure is to use the if and else statements which aligns with the boolean function that shows the numbers that are added by the users and whether or not their inputs are valid according to the first question asked. 
+
+Condition(s) tested by the second call:
+```python
+mean = mean(numList)
+median = median(numList)
+mode = mode(numList)
+min = min(numList)
+max = max(numList)
+statInput = input('Would you like to see the list and the statistics of the list? (y/n)')
+```
+
+
+The condition that is being tested by the second call to the procedure is by adding a list of mathematical functions that have stored variables based on the “numList”. 
+
+iii. Identifies the result of each call 
+
+Result of the first call: 
+
+```python
+ print('Number inputted.')
+ print('Ok! Exiting...')
+ print('Oh no! That wasn\'t an expected answer. Exiting...')
+ ```
+
+The result of the first call has three different results according to whether or not the user had entered “y” or “n”. For example, if the user has entered “y” for the first question always then they will have the result of “number inputted” after all questions have been answered. 
+
+
+Result of the second call:
+
+```python
+ print('The list is: ' + str(numList))
+ print('The mean is ' + str(mean) + '.')
+ print('The median is ' + str(median) + '.')
+ print('The mode is ' + str(mode) + '.')
+ print('The range is ' + str(min) + ' --> ' + str(max) + '.')
+ ```
+
+The result of the second call is to show the list of numbers that the user has entered as accordingly the mean, median, mode, and range are displayed after the list have been displayed. 
+
+
+
