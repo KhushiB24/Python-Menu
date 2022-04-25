@@ -23,3 +23,7 @@ Link to the Jekyll Page: https://khushib24.github.io/khushi12.github.io/
 1. CB Create Task
 2. Accounts and Login 
 
+## Week 5 [Review Ticket 5](https://github.com/KhushiB24/Python-Menu/issues/4)
+1. CB Create Task + Video
+2. Quiz 1 + Quiz 2 with corrections
+3. 2 CB University Faculty Lectures
