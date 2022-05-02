@@ -7,7 +7,7 @@
 <img width="900" alt="Screen Shot 2022-04-24 at 11 46 46" src="https://user-images.githubusercontent.com/89240973/164991778-d257cf72-f94c-4e53-9730-42c9222a84d4.jpg">
 
 
-<img width="852" alt="Screen Shot 2022-04-24 at 11 47 38 AM" src="https://user-images.githubusercontent.com/89240973/164993972-be055c2d-fff6-4725-a2a5-675aeac5beb2.jpg">
+<img width="852" alt="Screen Shot 2022-05-02 at 12 47 49 AM" src="https://user-images.githubusercontent.com/89240973/166315490-9c7af983-3e99-43ba-9b77-b15e23118090.jpg">
 
 
 ## 3a. i. Describes the overall purpose of the program 
@@ -95,7 +95,7 @@ else:
 ### ii. The second program code segment must show where your student-developed procedure is being called in your program.
 
 ```python
-statInput = input('Would you like to see the list and the stastistics of the list? (y/n)')
+statInput = input('Would you like to see the list and the statistics of the list? (y/n)')
 if OR(statInput, 'y', 'yes'):
  print('The list is: ' + str(numList))
  print('The mean is ' + str(mean) + '.')
