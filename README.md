@@ -32,3 +32,7 @@ Link to the Jekyll Page: https://khushib24.github.io/khushi12.github.io/
 1. GH Indi Page, Review Ticket, Crossover graded, Study Plan
 2. Create Task and Create Task Crossover Review comments (completed by Thu)
 3. Quiz3 MCQ results and test corrections
+
+## Week 7 [Review Ticket Quiz 5](https://github.com/KhushiB24/Python-Menu/issues/6)
+1. GH Indi Page, Review Ticket, Crossover graded, Study Plan
+2. Quiz5 MCQ results >50%, (1 or 0) and test corrections
