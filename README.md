@@ -10,4 +10,28 @@ Link to the Jekyll Page: https://khushib24.github.io/khushi12.github.io/
 2. Fibonacci
 
 ## Week 2 [Review Ticket 2](https://github.com/KhushiB24/khushi12.github.io/issues/3)
+1. Factorial Class
+2. Math Imperative and Class
+3. Palindrome Imperative and Class
+
+## Week 3 [Review Ticket 3](https://github.com/KhushiB24/Python-Menu/issues/1)
+1. Algorithmic Final
+
+## Week 4 [Review Ticket 4](https://github.com/KhushiB24/Python-Menu/issues/2)
+1. CB Create Task
+2. Accounts and Login 
+
+## Week 5 [Review Ticket 5](https://github.com/KhushiB24/Python-Menu/issues/4)
+1. CB Create Task + Video
+2. Quiz 1 + Quiz 2 with corrections
+3. 2 CB University Faculty Lectures
+
+## Week 6 [Review Ticket 6](https://github.com/KhushiB24/Python-Menu/issues/5)
+1. GH Indi Page, Review Ticket, Crossover graded, Study Plan
+2. Create Task and Create Task Crossover Review comments (completed by Thu)
+3. Quiz3 MCQ results and test corrections
+
+## Week 7 [Review Ticket Quiz 5](https://github.com/KhushiB24/Python-Menu/issues/6)
+1. GH Indi Page, Review Ticket, Crossover graded, Study Plan
+2. Quiz5 MCQ results >50%, (1 or 0) and test corrections
 
